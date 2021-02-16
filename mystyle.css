@@ -3,18 +3,29 @@
 	font-family: marker;
 	src: url(fonts/PermanentMarker-Regular.ttf);
 }
+@font-face {
+	font-family: reggae;
+	src: url(fonts/ReggaeOne-Regular.ttf);
+}
+@font-face {
+	font-family: sat;
+	src: url(fonts/Satisfy-Regular.ttf);
+}
 /**********************************************/
 
 body {
 	display: flex;
 	  justify-content: center;
- background-color: lightblue;
+ background-color: #fffbd9;
 }
 
 h1 {
 	font-family: marker;
 }
 
+p {
+	font-family: sat;
+}
 #container{
 	position: relative;
 	top: 100px;
@@ -42,13 +53,18 @@ list-style-type: none;
 margin: 25px;
 padding: 0px;
 display: flex;
-justify-content: left;
+justify-content: center;
 }
 
 a {
+	font-family: reggae;
 	text-decoration: none;
-	background: #fff;
-	padding: 15px;
+	padding: 5px;
+	color: black;
+}
+a:hover{
+	background: #ccc;
+	color: white;
 }
 
 #slider {
