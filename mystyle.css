@@ -18,6 +18,7 @@ h1 {
 #container{
 	position: relative;
 	top: 100px;
+	width: 500px;
 }
 
 #hero-image {
@@ -34,7 +35,6 @@ justify-content: center;
 	background: #FFF;
 	padding: 15px;
 	margin-bottom: 15px;
-  width: 500px
 }
 
 ul {
