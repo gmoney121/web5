@@ -1,0 +1,24 @@
+body {
+	display: flex;
+	  justify-content: center;
+ background-color: lightblue;
+}
+
+#container{
+  position: relative;
+	top: 100px;
+}
+
+#content-box{
+	background: #FFF;
+	padding: 15px;
+	margin-bottom: 15px;
+  width: 500px
+}
+
+ul {
+list-style-type: none;
+padding: 0px;
+display: flex;
+justify-content: left;
+}
