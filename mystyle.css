@@ -1,12 +1,33 @@
+/* FONTS ************************************/
+@font-face {
+	font-family: marker;
+	src: url(fonts/PermanentMarker-Regular.ttf);
+}
+/**********************************************/
+
 body {
 	display: flex;
 	  justify-content: center;
  background-color: lightblue;
 }
 
+h1 {
+	font-family: marker;
+}
+
 #container{
   position: relative;
 	top: 100px;
+}
+
+#hero-image {
+display: flex;
+justify-content: center;
+}
+
+#hero-image img {
+	width: 250px;
+	height: 500px;
 }
 
 #content-box{
@@ -18,7 +39,58 @@ body {
 
 ul {
 list-style-type: none;
+margin: 25px;
 padding: 0px;
 display: flex;
 justify-content: left;
 }
+
+a {
+	text-decoration: none;
+	background: #fff;
+	padding: 15px;
+}
+
+#slider {
+	overflow: hidden;
+}
+	#slider figure {
+		position: relative;
+		width: 500%;
+		margin: 0;
+		left: 0;
+		animation: 20s slider infinite;
+}
+#slider figure img {
+		width: 20%;
+		float: left;
+}
+
+@keyframes slider {
+		0% {
+			left: 0;
+		}
+		20% {
+			left: 0;
+		}
+		25% {
+			left: -100%;
+		}
+		45% {
+			left: -100%;
+		}
+		50% {
+			left: -200%;
+		}
+		70% {
+			left: -200%;
+		}
+		75% {
+			left: -300%;
+		}
+		95% {
+			left: -300%;
+		}
+		100% {
+			left: -400%;
+		}
